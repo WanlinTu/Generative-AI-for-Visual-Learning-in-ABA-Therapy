@@ -30,4 +30,19 @@ The tool was developed with a focus on therapist usability. Using a simple inter
 
 Ethical considerations are integral to this project. The tool includes safety prompts to ensure that generated content is suitable for children, and it limits the scope of each request to avoid unintended outputs. These decisions align with our coursework discussions on responsible AI deployment, particularly in healthcare and education contexts.
 
+## Critical Analysis
 
+This project demonstrates how generative AI can be adapted to address real needs in therapeutic education. By equipping therapists with the ability to create personalized, high-quality visual aids, the tool enhances the effectiveness of ABA therapy—particularly in supporting concept generalization, which is a core challenge for autistic learners.
+
+One of the key insights revealed during development is the importance of prompt precision and adaptability. While generative models are powerful, their outputs are highly sensitive to the wording, structure, and constraints of the prompt. This means that therapists may need different phrasing or image styles depending on the child’s age, developmental level, or specific learning objective. The current challenge is testing and iterating on a wide range of prompts that align with actual therapy needs in the field.
+
+The next step is to collaborate more deeply with therapists to co-develop a library of optimized, reusable prompts for common therapy scenarios. In the long term, the tool could incorporate prompt templates, automated fine-tuning options, or even adaptive feedback systems to improve personalization and efficiency.
+
+Ultimately, this project suggests that human-centered prompt design is just as important as the generative model itself—and that interdisciplinary collaboration between AI practitioners and domain experts (like therapists) is essential for making these tools truly impactful.
+
+## Key Resources & References
+DALL·E 3 – OpenAI’s DALL·E [documentation: For text-to-image generation API.](https://platform.openai.com/docs/guides/images?api-mode=responses)
+
+Prompt Engineering – “Prompt Engineering Guide” by DAIR.AI: Techniques and best practices. https://github.com/dair-ai/Prompt-Engineering-Guide
+
+Ethical AI Use – “On the Opportunities and Risks of Foundation Models” (Stanford CRFM, 2021): On the ethical deployment of generative models. http://crfm.stanford.edu/assets/report.pdf
