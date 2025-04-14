@@ -130,6 +130,7 @@ This small shift in wording improved realism, eliminated distracting backgrounds
 We also designed prompts for generalization learning, a key goal in ABA therapy. To help children recognize variation within a concept, we tested prompts like:
 
 *Realistic high-quality photos of different types of cats on plain white backgrounds, for educational use.*
+
 These prompts led to output that varied in breed and form, helping reinforce flexible concept understanding.
 
 Through these iterations, we learned that prompt engineering is not just a technical skill, but a design decision that affects educational effectiveness and ethical usability.
