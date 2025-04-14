@@ -139,11 +139,11 @@ Through these iterations, we learned that prompt engineering is not just a techn
 
 In the context of therapy and education, visual content must be:
 
-Emotionally safe
+- Emotionally safe
 
-Easy to interpret
+- Easy to interpret
 
-Consistent with learning objectives
+- Consistent with learning objectives
 
 By combining model evaluation, targeted prompt design, and iterative testing, we developed a tool that aligns with those priorities. Our critical analysis informed both what we built and why we built it that way — making it not just a generative AI demo, but a thoughtfully designed learning experience.
 
@@ -151,13 +151,13 @@ By combining model evaluation, targeted prompt design, and iterative testing, we
 
 The next step is to collaborate more closely with therapists to conduct systematic testing of prompt variations and image outputs. This includes:
 
-Building a curated prompt library tailored to different therapy goals
+- Building a curated prompt library tailored to different therapy goals
 
-Collecting qualitative feedback from therapists on usability and content relevance
+- Collecting qualitative feedback from therapists on usability and content relevance
 
-Exploring automated prompt suggestions or adaptive prompt tuning based on therapist input
+- Exploring automated prompt suggestions or adaptive prompt tuning based on therapist input
 
-Potentially integrating Stable Diffusion or fine-tuned open-source models for offline or lower-cost generation
+- Potentially integrating Stable Diffusion or fine-tuned open-source models for offline or lower-cost generation
 
 ## Key Resources & References
 DALL·E 3 – OpenAI’s DALL·E [documentation: For text-to-image generation API.](https://platform.openai.com/docs/guides/images?api-mode=responses)
