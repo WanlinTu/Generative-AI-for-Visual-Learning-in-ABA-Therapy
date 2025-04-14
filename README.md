@@ -70,6 +70,23 @@ Version: DALL·E 3 (2023, API access through OpenAI)
 
 DALL·E 3 is a generative model capable of converting detailed natural language prompts into high-resolution, photorealistic images. It leverages a combination of transformers and diffusion techniques to iteratively generate visual content from noise, conditioned on text embeddings.
 
+**Architecture: How Transformers Enable Image Generation**
+
+DALL·E 3 is built on a transformer-based architecture, which enables it to understand natural language prompts and generate coherent, high-quality images. The model uses a text encoder (based on transformers) to process the prompt and generate embeddings that condition the image generation process.
+
+In diffusion-based architectures like DALL·E 3, these text embeddings guide a denoising model to iteratively transform noise into an image that aligns with the input description.
+
+The process can be broken down into four main stages:
+
+1. **Text Encoding** – The input prompt is tokenized and passed through a transformer encoder to create contextual embeddings.
+2. **Image Conditioning** – These embeddings guide the image generation process through cross-attention.
+3. **Image Generation** – A denoising transformer or decoder stack transforms random noise into image tokens.
+4. **Output Refinement** – The image is enhanced and filtered for safety and quality.
+
+![Screenshot 2025-04-13 at 8 18 24 PM](https://github.com/user-attachments/assets/7e1d4025-ee73-4cdf-96f7-4a0ef92aca6c)
+
+
+
 **Intended Uses**
 
 Designed for educational and therapeutic use within ABA (Applied Behavior Analysis) settings.
