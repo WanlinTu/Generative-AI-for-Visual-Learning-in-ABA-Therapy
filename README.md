@@ -46,7 +46,7 @@ Variation (Different visual representations of the same concept to support gener
 
 We tested prompt variations across multiple categories (e.g., animals, objects, people) and background types. Results showed that:
 
-(*connect to the course) Highly structured prompts yield more accurate results
+Highly structured prompts yield more accurate results
 
 Abstract or vague prompts often lead to hallucinated or irrelevant outputs This informed our prompt engineering strategy of using explicit, constrained templates.
 
