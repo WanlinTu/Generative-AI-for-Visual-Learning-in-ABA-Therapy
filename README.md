@@ -123,13 +123,13 @@ Throughout the development process, we learned that the phrasing of prompts sign
 
 For instance, to support single-object learning for younger children, we refined our prompts from a simple "cat" to:
 
-**Realistic high-quality photo of a cat on a plain white background, for educational use.**
+__Realistic high-quality photo of a cat on a plain white background, for educational use.__
 
 This small shift in wording improved realism, eliminated distracting backgrounds, and ensured consistency across outputs.
 
 We also designed prompts for generalization learning, a key goal in ABA therapy. To help children recognize variation within a concept, we tested prompts like:
 
-**Realistic high-quality photos of different types of cats on plain white backgrounds, for educational use.**
+__Realistic high-quality photos of different types of cats on plain white backgrounds, for educational use.__
 
 These prompts led to output that varied in breed and form, helping reinforce flexible concept understanding.
 
