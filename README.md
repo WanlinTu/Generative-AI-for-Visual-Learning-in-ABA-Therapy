@@ -12,7 +12,7 @@ This project presents a generative AI-based image search and generation tool des
 This feature will be integrated into an existing electronic medical record (EMR) platform, giving therapists an efficient, customizable way to create, save, and reuse visual content directly within their therapy workflow. Additional functionalities include stepwise spelling input to support language learning, safety filters to ensure appropriateness, and prompt saving for future use.
 
 ## Methodology
-This project applies several foundational techniques and concepts from our Generative AI coursework to build a practical tool for therapists working with autistic children. The methodology draws from the following key areas:
+This project applies several foundational techniques and concepts to build a practical tool for therapists working with autistic children. The methodology draws from the following key areas:
 
 **Generative AI for Visual Content Creation**
 
