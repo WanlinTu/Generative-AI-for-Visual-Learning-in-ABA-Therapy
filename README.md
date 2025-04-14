@@ -30,6 +30,64 @@ The tool was developed with a focus on therapist usability. Using a simple inter
 
 Ethical considerations are integral to this project. The tool includes safety prompts to ensure that generated content is suitable for children, and it limits the scope of each request to avoid unintended outputs. These decisions align with our coursework discussions on responsible AI deployment, particularly in healthcare and education contexts.
 
+## Assessment & Evaluation
+
+**Image Relevance & Quality**
+
+Each generated image was reviewed for:
+
+Fidelity to prompt (Does the image reflect the subject, background, and tone described?)
+
+Child-appropriateness (Free of unwanted or overly complex visual elements)
+
+Variation (Different visual representations of the same concept to support generalization)
+
+**Prompt Responsiveness**
+
+We tested prompt variations across multiple categories (e.g., animals, objects, people) and background types. Results showed that:
+
+Highly structured prompts yield more accurate results
+
+Abstract or vague prompts often lead to hallucinated or irrelevant outputs This informed our prompt engineering strategy of using explicit, constrained templates.
+
+**Limitations**
+
+Responses can vary depending on model load and randomness in generation
+
+Certain prompts (e.g., social scenarios) are harder to render accurately
+
+No large-scale formal testing has been conducted yet
+
+## Model
+
+**Model Information**
+
+Model Used: DALL·E 3 (via OpenAI API)
+
+Architecture: Transformer-based text-to-image diffusion model
+
+Version: DALL·E 3 (2023, API access through OpenAI)
+
+DALL·E 3 is a generative model capable of converting detailed natural language prompts into high-resolution, photorealistic images. It leverages a combination of transformers and diffusion techniques to iteratively generate visual content from noise, conditioned on text embeddings.
+
+**Intended Uses**
+
+Designed for educational and therapeutic use within ABA (Applied Behavior Analysis) settings.
+
+Allows therapists to generate multiple, safe, and customizable images to support concept learning and generalization in autistic children.
+
+Intended for professional and supervised use by clinicians, therapists, or caregivers—not for unsupervised child use.
+
+**License & Access**
+
+Model Provider: OpenAI
+
+License: Subject to OpenAI’s usage policies
+
+API Access: Requires personal API key and agreement with OpenAI’s terms of service
+
+Images Generated: Not guaranteed to be open-license; users are advised to review content before publishing or sharing
+
 ## Critical Analysis
 
 **Model Comparison: Stable Diffusion vs. DALL·E**
@@ -72,6 +130,17 @@ Consistent with learning objectives
 
 By combining model evaluation, targeted prompt design, and iterative testing, we developed a tool that aligns with those priorities. Our critical analysis informed both what we built and why we built it that way — making it not just a generative AI demo, but a thoughtfully designed learning experience.
 
+**Next Step**
+
+The next step is to collaborate more closely with therapists to conduct systematic testing of prompt variations and image outputs. This includes:
+
+Building a curated prompt library tailored to different therapy goals
+
+Collecting qualitative feedback from therapists on usability and content relevance
+
+Exploring automated prompt suggestions or adaptive prompt tuning based on therapist input
+
+Potentially integrating Stable Diffusion or fine-tuned open-source models for offline or lower-cost generation
 
 ## Key Resources & References
 DALL·E 3 – OpenAI’s DALL·E [documentation: For text-to-image generation API.](https://platform.openai.com/docs/guides/images?api-mode=responses)
